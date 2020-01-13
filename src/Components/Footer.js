@@ -24,7 +24,9 @@ const Link = styled.a`
   color: ${props => props.theme.darkBlueColor};
 `;
 
-const Copyright = styled.span``;
+const Copyright = styled.span`
+  color: ${props => props.theme.darkGreyColor};
+`;
 
 export default () => (
   <Footer>
